@@ -1,0 +1,145 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"title": "IPhysics Calculator"
+			"$sizePolicy": 1
+			"defaultCloseOperation": 3
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "South"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "contentPanel"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "IPhysics Calculator"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "Cooper Black", 1, 28 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 185
+					"y": 5
+					"width": 330
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Nicolas Rodriguez"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Cristian Cruz"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 320
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Maria Alejandra Angarita"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 340
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Alejandro Chitiva"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 360
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnCoulomb"
+					"text": "Ley de Coulomb"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 280
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGauss"
+					"text": "Ley de Gauss"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 90
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnFlujoE"
+					"text": "Flujo Electrico"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 130
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnCapacitores"
+					"text": "Suma de Capacitores"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 170
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnPotencial"
+					"text": "Potencial Electrico"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 210
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnEnergiaP"
+					"text": "Energia Potencial"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnEnergiaA"
+					"text": "Energia Almacenada"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 290
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnDensidad"
+					"text": "Densidad"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 330
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnCapacitancia"
+					"text": "Capacitancia"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 121
+					"height": 30
+					"x": 280
+					"y": 365
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 700, 490 )
+		} )
+	}
+}
